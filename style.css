@@ -1,0 +1,133 @@
+      *{
+        box-sizing: border-box;
+    }
+    
+    body{
+        background-image: url(cover.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cta{
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    
+    width: 349px;
+    height: 48px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    }
+    
+    .header{
+        width: 693px;
+    height: 240px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    
+    .header2{
+        width: 539px;
+    height: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
+    
+    .quote{
+        flex-direction: column;
+    align-items: center;
+    padding: 10px 36px;
+    gap: 10px;
+
+    width: 185px;
+    height: 48px;
+    background: #00A0C1;
+    border-radius: 37px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    
+    .learn{
+        width: 82px;
+        height: 28px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #00A0C1;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    
+    .parent{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+    width: 328px;
+    height: 619px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    float: right;
+    margin-right: 300px;
+    }
+
+    
+    
+    .N2{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 40px;
+    gap: 10px;
+    height: 50px;
+    background: #FFA62B;
+    border-radius: 5px;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-top: 15px;
+    float: left;
+    }
+
+    .mail{
+    padding-right: 80px;
+    }
+    
+    .N1{
+ box-sizing: border-box;
+height: 50px;
+bottom: 0px;
+background: #F9F9F9;
+border: 1px solid #BDBDBD;
+border-radius: 5px;
+margin-top: 15px;
+    }
